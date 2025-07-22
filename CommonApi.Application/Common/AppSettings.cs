@@ -1,8 +1,9 @@
-﻿namespace CommonApi.Application.Common
+﻿namespace CommonApi.application.Common
 {
 	public class AppSettings
 	{
 		public JwtConfig? JwtConfig { get; set; }
+		public bool APILog { get; set; }
 	}
 
 	public class JwtConfig

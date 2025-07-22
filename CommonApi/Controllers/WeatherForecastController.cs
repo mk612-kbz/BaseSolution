@@ -1,10 +1,12 @@
+using CommonApi.application.Common;
+using CommonApi.application.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CommonApi.Controllers
 {
 	[ApiController]
 	[Route("api/[controller]")]
-	public class WeatherForecastController : ControllerBase
+	public class WeatherForecastController : BaseController
 	{
 		private static readonly string[] Summaries = new[]
 		{
@@ -13,7 +15,7 @@ namespace CommonApi.Controllers
 
 		private readonly ILogger<WeatherForecastController> _logger;
 
-		public WeatherForecastController(ILogger<WeatherForecastController> logger)
+		public WeatherForecastController(ILogger<WeatherForecastController> logger, AppSettings appSettings, IAuditLogService auditLogService) : base(appSettings, auditLogService)
 		{
 			_logger = logger;
 		}

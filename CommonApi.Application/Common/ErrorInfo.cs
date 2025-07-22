@@ -14,6 +14,7 @@
 		public string? ErrorCode { get; set; }
 		public string? ErrorDescription { get; set; }
 	}
+
 	public class ErrorCode
 	{
 		public static ErrorInfo Unauthorized { get { return new ErrorInfo { Code = "1000", Message = "Unauthorized." }; } }

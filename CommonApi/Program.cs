@@ -1,6 +1,8 @@
 using AspNetCoreRateLimit;
-using CommonApi.Application.Common;
+using CommonApi.application;
+using CommonApi.application.Common;
 using CommonApi.Extension;
+using CommonApi.infrastructure;
 using CommonApi.Middleware;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Serialization;
@@ -62,6 +64,9 @@ namespace CommonApi
 			builder.Services.ConfigureSwagger();
 			builder.Services.ConfigureJWTAuthenticate(configuration);
 
+			// pendency injection for application and infrastructure layers
+			builder.Services.AddApplication();
+			builder.Services.AddInfrastructure();
 
 			var app = builder.Build();
 

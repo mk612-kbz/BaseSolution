@@ -25,7 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommonApi.Application\CommonApi.Application.csproj" />
+    <ProjectReference Include="..\CommonApi.application\CommonApi.application.csproj" />
+    <ProjectReference Include="..\CommonApi.infrastructure\CommonApi.infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
