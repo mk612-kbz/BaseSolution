@@ -1,5 +1,5 @@
 ﻿using AspNetCoreRateLimit;
-using CommonApi.Application.Common;
+using CommonApi.application.Common;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
