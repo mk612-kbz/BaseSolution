@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonApi", "CommonApi\CommonApi.csproj", "{8502D114-2EE4-1357-4646-FA893E66FFDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonApi.application", "CommonApi.Application\CommonApi.application.csproj", "{08DE0ACB-F0FE-4599-A44F-502F576F2EA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonApi.application", "CommonApi.application\CommonApi.application.csproj", "{08DE0ACB-F0FE-4599-A44F-502F576F2EA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonApi.domain", "CommonApi.domain\CommonApi.domain.csproj", "{7EEA431E-7ED3-4FFB-8648-43CA7B854860}"
 EndProject

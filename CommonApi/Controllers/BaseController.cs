@@ -1,7 +1,7 @@
 ﻿using CommonApi.application.Common;
 using CommonApi.application.Interfaces.Services;
 using CommonApi.application.Utilities;
-using CommonApi.Application.Common;
+using CommonApi.application.Common;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;

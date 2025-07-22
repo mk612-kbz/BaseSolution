@@ -1,4 +1,4 @@
-﻿namespace CommonApi.Application.Common
+﻿namespace CommonApi.application.Common
 {
 	public class ResponseModel
 	{

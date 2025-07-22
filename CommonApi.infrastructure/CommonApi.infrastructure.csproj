@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommonApi.Application\CommonApi.application.csproj" />
+    <ProjectReference Include="..\CommonApi.application\CommonApi.application.csproj" />
     <ProjectReference Include="..\CommonApi.domain\CommonApi.domain.csproj" />
   </ItemGroup>
 

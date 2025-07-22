@@ -1,4 +1,4 @@
-﻿using CommonApi.Application.Common;
+﻿using CommonApi.application.Common;
 
 namespace CommonApi.application.Utilities
 {
